@@ -24,12 +24,5 @@ var addData = (dataInput) => {
 addData(tableData);
 
 
-var addData = (dataInput) => {
-    dataInput.forEach(ufoSightings => {
-        var row = $tbody.append("tr");
-        columns.forEach(column => row.append("td").text(ufoSightings[column])
-        )
-    });
-}
 
-addData(tableData);
+ 
